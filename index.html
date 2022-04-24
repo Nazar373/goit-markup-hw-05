@@ -45,7 +45,7 @@
     <section class="hero-section section">
       <div class="container">
         <h1 class="hero-title">Ефективне рішення для вашого бізнесу</h1>
-      <button type="button" class="title-button">Замовити послугу</button>
+      <button type="button" class="title-button" data-modal-open>Замовити послугу</button>
       </div>
     </section>
     <!--section02-->
@@ -102,11 +102,23 @@
     <h2 class="title-section">Чим ми займаємось</h2>
   <ul class="img-list">
   <li class="photo-list"><img src="images/1.jpeg" alt="бокс1" width="370"
-    height="294"></li>
+    height="294">
+  <span class="work-tag">
+   Десктопні додатки
+  </span>
+</li>
   <li class="photo-list"><img src="images/2.jpeg" alt="бокс2" width="370"
-    height="294"></li>
+    height="294">
+    <span class="work-tag">
+      Мобільні додатки
+</span>
+</li>
   <li class="photo-list"><img src="images/3.jpeg" alt="бокс3" width="370"
-    height="294"></li>
+    height="294">
+    <span class="work-tag">
+      Дизайнерські рішення
+</span>
+</li>
   </ul>
   </div>
 </section>
@@ -359,9 +371,13 @@
         </svg></a></li>
       </ul>
     </div>
-
-   </div>
   </footer>
-  <script src="./js/modal.js"></script>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+     <button data-modal-close class="close-btn"><svg class="vector-icon"><use href="./images/symbol-defs.svg#icon-Vector-1">
+     </use></svg></button>
+    </div>
+  </div>
+   <script src="./js/modal.js"></script>
 </body>
 </html>
