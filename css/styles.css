@@ -74,6 +74,7 @@ p,span,h1,h2,h3,h4,h5,h6 {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 .site-nav.current::after { color: #2196F3;
   content: '' ;
@@ -94,7 +95,7 @@ p,span,h1,h2,h3,h4,h5,h6 {
 }
 .phone { 
   position: relative;
-  
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -185,6 +186,7 @@ p,span,h1,h2,h3,h4,h5,h6 {
   border: solid transparent;
   margin-left: auto;
   margin-bottom: auto;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .title-button:hover {
   background-color: #2196F399;
@@ -337,6 +339,7 @@ p,span,h1,h2,h3,h4,h5,h6 {
   letter-spacing: 0.03em;
   color:var(--accent-color) ; 
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress:hover , .adress:focus{ color:#2196F3}
 .mobile {
@@ -346,6 +349,7 @@ p,span,h1,h2,h3,h4,h5,h6 {
   letter-spacing: 0.03em;
   color:rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
 .mobile:hover { color:#FFFFFF}
@@ -537,6 +541,7 @@ margin-right: 10px
   border-radius: 44px;
   width: 44px;
   height: 44px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover {
   background-color: var(--logo-span-color);
@@ -558,6 +563,7 @@ margin-right: 10px
   width: 106px;
   height: 60px;
   fill: #AFB1B8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-list {
   position: relative;
@@ -573,6 +579,7 @@ margin-right: 10px
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link:hover , .client-link:focus {
   border-color:var(--logo-span-color);
@@ -631,7 +638,8 @@ margin-right: 10px
   border-radius: 44px;
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1)
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot-social-link:hover {
   background-color: var(--logo-span-color)
@@ -673,6 +681,9 @@ margin-right: 10px
 }
 .modal {
   position: relative;
+}
+.btn {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-btn:hover , .close.btn:focus {
   background: rgb(167, 167, 167);
